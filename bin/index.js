@@ -21,6 +21,13 @@ const templateDir = path.join(__dirname, '../template')
 // Copy template
 fs.cpSync(templateDir, targetDir, { recursive: true })
 
+// Rename gitignore to .gitignore
+const dotGitignorePath = path.join(targetDir, '.gitignore')
+const gitignorePath = path.join(targetDir, 'gitignore')
+if (fs.existsSync(gitignorePath)) {
+    fs.renameSync(gitignorePath, dotGitignorePath)
+}
+
 // Replace placeholders
 const filesToReplace = ['package.json', 'app.json']
 
