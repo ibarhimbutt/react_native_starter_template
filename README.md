@@ -2,6 +2,14 @@
 
 A high-performance, developer-friendly [Expo](https://expo.dev) starter template pre-configured with **TypeScript**, **NativeWind (Tailwind CSS)**, and a robust component architecture.
 
+## 📦 Installation Instructions
+
+Run this command to generate your project:
+
+```bash
+npx react-native-starter-template myapp
+```
+
 ## 🚀 Key Features
 
 - **TypeScript**: First-class support for static typing and better developer experience.
