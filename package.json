@@ -1,18 +1,18 @@
 {
-  "name": "react-native-starting-template",
+  "name": "react-native-starter-template",
   "version": "1.0.0",
   "description": "CLI to generate a React Native Expo starter template with Tailwind (NativeWind) and reusable UI components",
   "type": "module",
   "bin": {
-    "react-native-starting-template": "bin/index.js"
+    "react-native-starter-template": "bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibarhimbutt/react_native_starting_template.git"
+    "url": "https://github.com/ibarhimbutt/react_native_starter_template.git"
   },
-  "homepage": "https://github.com/ibarhimbutt/react_native_starting_template",
+  "homepage": "https://github.com/ibarhimbutt/react_native_starter_template",
   "bugs": {
-    "url": "https://github.com/ibarhimbutt/react_native_starting_template/issues"
+    "url": "https://github.com/ibarhimbutt/react_native_starter_template/issues"
   },
   "keywords": [
     "react-native",
